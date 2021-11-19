@@ -28,7 +28,7 @@ body {
 }
 
 .second_heading{
-	font-size: 1.5em;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -43,6 +43,14 @@ body {
 }
 .tile:hover {
 	color: red;
+}
+
+.tile > img {
+	opacity: 0.7;
+}
+
+.tile > img:hover {
+	opacity: 1;
 }
 
 .text{
@@ -62,6 +70,25 @@ body {
 	font-size: 25px;
 }
 
+.feedback {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.review {
+	font-size: 100px;
+}
+
+.review_Submit {
+	te
+}
+
+.quote {
+	padding: 1em;
+}
+
 .footer{
 	text-align: center;
 }
@@ -70,8 +97,9 @@ body {
 	height: 50px;
 	width: 50px;
 	object-fit: cover;
+	opacity: 0.7;
 }
 
 .footer-img:hover{
-	
+	opacity: 1;
 }
